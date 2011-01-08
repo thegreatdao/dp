@@ -21,7 +21,7 @@ public class Main
 		waiter.setPizzaBuilder(hawaiian_pizzabuilder);
 		waiter.constructPizza();
 
-		Pizza pizza = waiter.getPizza();
+		waiter.getPizza();
 
 	}
 }
