@@ -14,11 +14,13 @@ public class Milk extends CoffeeDecorator
       ingredient = "Milk";
   }
 
+  @Override
   public double getCost()
   {
       return super.getCost() + cost;
   }
 
+  @Override
   public String getIngredient()
   {
       return super.getIngredient() + ingredientSeparator + ingredient;

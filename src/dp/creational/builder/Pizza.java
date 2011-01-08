@@ -2,8 +2,11 @@ package dp.creational.builder;
 
 class Pizza
 {
+	@SuppressWarnings("unused")
 	private String dough = "";
+	@SuppressWarnings("unused")
 	private String sauce = "";
+	@SuppressWarnings("unused")
 	private String topping = "";
 
 	public void setDough(String dough)

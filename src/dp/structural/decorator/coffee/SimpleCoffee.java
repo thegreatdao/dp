@@ -13,11 +13,13 @@ public class SimpleCoffee implements Coffee
         ingredient = "Coffee";
     }
  
+    @Override
     public double getCost()
     {
         return cost;
     }
  
+    @Override
     public String getIngredient()
     {
         return ingredient;

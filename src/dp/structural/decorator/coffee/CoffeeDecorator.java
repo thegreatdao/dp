@@ -13,11 +13,13 @@ public abstract class CoffeeDecorator implements Coffee
 		ingredientSeparator = ", ";
 	}
 
+	@Override
 	public double getCost() // note it implements the getCost function defined in interface Coffee
 	{
 		return decoratedCoffee.getCost();
 	}
 
+	@Override
 	public String getIngredient()
 	{
 		return decoratedCoffee.getIngredient();

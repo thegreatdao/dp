@@ -14,11 +14,13 @@ public class Sprinkles extends CoffeeDecorator
 		ingredient = "Sprinkles";
 	}
 
+	@Override
 	public double getCost()
 	{
 		return super.getCost() + cost;
 	}
 
+	@Override
 	public String getIngredient()
 	{
 		return super.getIngredient() + super.ingredientSeparator + ingredient;

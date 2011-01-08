@@ -14,11 +14,13 @@ public class Whip extends CoffeeDecorator
 		ingredient = "Whip";
 	}
 
+	@Override
 	public double getCost()
 	{
 		return super.getCost() + cost;
 	}
 
+	@Override
 	public String getIngredient()
 	{
 		return super.getIngredient() + ingredientSeparator + ingredient;
